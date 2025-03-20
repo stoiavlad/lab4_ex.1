@@ -22,8 +22,8 @@ public class Main {
         int p = 4;
         List<Integer> xPlusYLimitedByP = xPlusY.stream().filter(num -> num <= p).collect(Collectors.toList());
 
-        System.out.println("Lista x: " + x);
-        System.out.println("Lista y: " + y);
+        System.out.println("Lista x ordonata: " + x);
+        System.out.println("Lista yordonada: " + y);
         System.out.println("xPlusY: " + xPlusY);
         System.out.println("zSet (valori comune): " + zSet);
         System.out.println("xMinusY: " + xMinusY);
